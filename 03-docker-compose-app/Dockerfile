@@ -6,7 +6,7 @@ WORKDIR /usr/src/app
 COPY package.json ./
 
 # 추가적으로 필요한 파일들을 다운로드 받는다.
-# -> 종속성 파일 설
+# -> 종속성 파일 설정
 RUN npm install
 
 COPY ./ ./
