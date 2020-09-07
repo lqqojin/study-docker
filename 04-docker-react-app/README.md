@@ -13,6 +13,11 @@ docker run -it -p 3000:3000 -v /usr/src/app/node_modules -v $(pwd):/usr/src/app 
 ~~~
 
 ### 도커 컴포즈로 좀 더 간단하게 앱 실행하기
+docker-compose.yml 작성하기
 ~~~
+// 실행
+docker-compose up
+// 중단
+docker-compose down
 ~~~
 
