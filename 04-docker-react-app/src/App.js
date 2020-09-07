@@ -16,7 +16,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          Wow! Awesome docker 배워보자 !!!~!!!
         </a>
       </header>
     </div>
