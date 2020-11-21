@@ -16,7 +16,7 @@ docker run -it -p 3000:3000 -v /usr/src/app/node_modules -v $(pwd):/usr/src/app 
 docker-compose.yml 작성하기
 ~~~
 // 실행
-docker-compose up
+docker-compose.yml up
 // 중단
 docker-compose down
 ~~~
